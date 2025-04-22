@@ -1,48 +1,33 @@
-# The Site Configuration
-
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
-lang: en
+# A linguagem do site
+lang: pt-BR
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+# Fuso horário (Goiânia)
+timezone: America/Sao_Paulo
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
+# Informações de SEO
+title: Alyce Suza
+tagline: Engenharia, Cibersegurança e Café ☕
+description: >-
+  Blog pessoal e técnico da Alyce Suza — engenharia de computação, cibersegurança, arte e tudo mais que inspira.
 
-title: Chirpy # the main title
+# URL do site — sem barra no final
+url: "https://alycesuza.github.io" # ou "https://alycesuza.tech" se for usar domínio personalizado
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
-
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
-
+# GitHub e redes sociais
 github:
-  username: github_username # change to your GitHub username
-
-twitter:
-  username: twitter_username # change to your Twitter username
+  username: alycesuza
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Alyce Suza
+  email: contato@alycesuza.tech
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://alycesuza.tech
+    - https://github.com/alycesuza
+    - https://www.linkedin.com/in/alycesuza
+    - https://www.instagram.com/alycesuza
 
 # Site Verification Settings
 webmaster_verifications:
@@ -88,7 +73,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -98,11 +83,11 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: assets/img/social-card.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
