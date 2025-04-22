@@ -72,6 +72,3 @@ Se em algum momento você se sentiu sozinha(o), diferente demais ou fora do padr
 Sinta-se à vontade para me chamar, seja pra trocar ideia sobre carreira, aprender algo novo ou só mandar um “ei, achei seu blog legal”.  
 Obrigada por estar aqui. 💜
 
----
-
-<img src="/assets/img/pixel-alyce.png" width="140" alt="Alyce em pixel art" style="margin-top: 20px; border-radius: 15px;" />
